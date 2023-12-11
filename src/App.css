@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.panel-light,
+.panel-dark {
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.panel-light {
+  background: #fff;
+  color: #222;
+}
+
+.panel-dark {
+  background: rgb(23, 32, 42);
+  color: #fff;
+}
+
+.button-light,
+.button-dark {
+  border: 1px solid #777;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.button-dark {
+  background: #222;
+  color: #fff;
+}
+
+.button-light {
+  background: #fff;
+  color: #222;
+}
