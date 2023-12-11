@@ -30,7 +30,7 @@ function Panel({ title, children }) {
         {children}
       </div>
       <div>
-        <img alt={image} height="100" src={"../../public/assets/" + image + ".png"} />
+        <img alt={image} height="100" src={"./assets/" + image + ".png"} />
       </div>
     </section>
   );
